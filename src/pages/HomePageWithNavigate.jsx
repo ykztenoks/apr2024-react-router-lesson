@@ -7,7 +7,7 @@ const imgURL =
   "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/react-routing/home.gif";
 
 function HomePageWithNavigate() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   if (!isLoggedIn) return <Navigate to="/error" />;
 

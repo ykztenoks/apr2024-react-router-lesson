@@ -25,6 +25,12 @@ function Navbar() {
           <li>Projects</li>
         </NavLink>
 
+        <NavLink
+          to="/search-example"
+          className={({ isActive }) => (isActive ? "selected" : "")}
+        >
+          <li>Search</li>
+        </NavLink>
         <a href="https://github.com/ykztenoks" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
